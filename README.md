@@ -33,4 +33,10 @@ A modern take on the classic Space Invaders arcade game, built with pure HTML5, 
 
 ## Getting Started
 
+### Play Online
+
+Play the game directly in your browser: [Modern Space Invaders](https://usamadar.github.io/spaceinvaders/)
+
+### Local Setup
+
 1. Clone the repository: 
