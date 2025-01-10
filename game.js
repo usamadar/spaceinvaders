@@ -367,8 +367,9 @@ class Game {
         this.canvas.width = container.clientWidth;
         this.canvas.height = container.clientHeight;
         
-        // Adjust player position
-        this.player.y = this.canvas.height - 50;
+        // Adjust player position - move it up from the bottom
+        const bottomOffset = this.isMobile ? 100 : 50; // More space from bottom on mobile
+        this.player.y = this.canvas.height - bottomOffset;
         this.player.x = this.canvas.width / 2;
         
         // Scale enemy positions
